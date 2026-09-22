@@ -1,0 +1,10 @@
+streamlit
+chromadb
+sentence-transformers
+pymupdf
+python-docx
+requests
+numpy
+pandas
+matplotlib
+pytest

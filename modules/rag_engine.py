@@ -21,8 +21,8 @@ class RAGEngine:
             document = documents[i]
             metadata = metadatas[i]
 
-            filename = metadata["filename"]
-            page_number = metadata["page_number"]
+            filename = metadata.get("filename", "Unknown document")
+            page_number = metadata.get("page_number", None)
 
             source = f"Source: {filename}"
 
